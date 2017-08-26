@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    </head>
+    <title>Solar System</title>
+    <body>
+        <a-scene>
+          <a-sphere position="-6 2 -4" src="sun.jpg" radius="1" >
+        <a-animation attribute="rotation"
+               dur="50000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>
+        </a-animation>
+          </a-sphere>
+          <a-sphere position="-4 2 -4" src="mercury.jpeg" radius="0.1" >  
+<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>        	
+          </a-sphere>
+          <a-sphere position="-3.3 2 -4" src="venus.jpg"radius="0.14" > 
+<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>         	
+          </a-sphere>
+          <a-sphere position="-2.2 2 -4" src="earth.jpg" radius="0.2" >    
+<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>      	
+          </a-sphere>
+          <a-sphere position="-0.7 2 -4" src="mars.jpeg" radius="0.21"> 
+<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>        	
+          </a-sphere>
+          <a-sphere position="1 2 -4" src="jupiter.jpeg" radius="0.35" >
+          	<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>
+          </a-sphere>
+          <a-sphere position="3 2 -4" src="saturn.jpeg" radius="0.25" >
+          	<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>
+          </a-sphere>
+          <a-sphere position="4.5 2 -4" src="uranus.jpeg" radius="0.23" >
+          	<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>
+          </a-sphere>
+          <a-sphere position="6.5 2 -4" src="neptune.jpeg" radius="0.22">
+          	<a-animation attribute="rotation"
+               dur="10000"
+               to="0 360 0"
+               repeat="indefinite">
+        </a-animation>
+          </a-sphere>
+          <a-ring src="ring.jpeg" position="3 2 -4" rotation="225 135 0" radius-inner="0.3" radius-outer="0.4"></a-ring>
+          <a-sky src="solar.jpg"></a-sky>         
+        </a-scene>
+    </body>
+</html>	
